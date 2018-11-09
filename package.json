@@ -1,0 +1,27 @@
+{
+  "name": "1kg-bog-app",
+  "version": "1.0.0",
+  "description": "1st iteration of our full stack mern lab",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KGreen66/1KG-bog-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KGreen66/1KG-bog-app/issues"
+  },
+  "homepage": "https://github.com/KGreen66/1KG-bog-app#readme",
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.10",
+    "postinstall": "^0.4.2"
+  }
+}
