@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const NavbarStyles = styled.div`
-    background-color: burlywood;
+    background-color: tan;
     color: white;
     display: flex;
     flex-direction: row;
@@ -17,7 +17,7 @@ const NavbarStyles = styled.div`
         font-size: 18px;
         padding: 15px;
         &:hover{
-            color: red;
+            color: green;
         }
     }
     `

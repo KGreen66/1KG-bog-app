@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const routes = require('./back-end/routes/index')
+const routes = require('./backend/routes/index')
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
