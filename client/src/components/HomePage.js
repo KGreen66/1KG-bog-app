@@ -94,7 +94,7 @@ class HomePage extends Component {
         <div className="big-container">
         {this.state.creatures.map(creature => (
           <div key={creature._id} className="creature-container">
-            <Link to={`/${creature._id}`}>{creature.name}</Link>
+            <Link to={`/creatures/${creature._id}`}>{creature.name}</Link>
             {/* <Link to={`/${creature._id}`}><img src={creature.img} alt=""/></Link> */}
           </div>
         ))}
